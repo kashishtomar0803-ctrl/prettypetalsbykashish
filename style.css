@@ -1147,20 +1147,58 @@ footer {
     .contact-button {
         width: 100%;
     }
-   /* Product Images */
+  @media (max-width: 450px) {
+
+    .logo {
+        font-size: 26px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-placeholder {
+        height: 280px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact-button {
+        width: 100%;
+    }
+}
+
+
+/* =========================================
+   PRODUCT IMAGES
+========================================= */
+
 .product-card img {
     width: 100%;
-    height: 320px;
+    height: 300px;
     object-fit: cover;
     display: block;
 }
 
-/* Gallery Images */
+
+/* =========================================
+   GALLERY IMAGES
+========================================= */
+
 .gallery-grid img {
     width: 100%;
-    height: 280px;
+    height: 250px;
     object-fit: cover;
     display: block;
-}
-
 }
