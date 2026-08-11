@@ -1,43 +1,628 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pretty Petals by Kashish</title>
+
+    <title>Pretty Petals by Kashish | Handmade Creations</title>
+
+    <meta name="description" content="Pretty Petals by Kashish - Handmade fuzzy wire flowers, bouquets, keychains, flower pots, accessories, lamps and unique handmade creations.">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <h2>Pretty Petals by Kashish</h2>
+    <!-- ================= NAVIGATION ================= -->
 
-        <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
+    <header class="navbar">
 
-    <section class="hero">
+        <a href="#home" class="logo">
+            Pretty Petals
+            <span>by Kashish</span>
+        </a>
 
-        <h1>Handmade Fuzzy Wire Flowers</h1>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#how-to-order">How to Order</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-        <p>
-            Every flower is handcrafted with love,
-            made to last forever.
-        </p>
+        <button class="menu-btn" aria-label="Open menu">
+            ☰
+        </button>
 
-        <button>Order Now</button>
+    </header>
 
-    </section>
 
-<script src="script.js"></script>
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">HANDMADE • THOUGHTFUL • UNIQUE</p>
+
+                <h1>
+                    Flowers that
+                    <span>never fade.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Handcrafted fuzzy-wire flowers and little creations,
+                    made with love to make your moments a little more special.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#shop" class="btn btn-primary">
+                        Explore Collection
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Custom Order
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-decoration">
+                <div class="flower-circle">✿</div>
+                <p>Handmade with love ♡</p>
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRO ================= -->
+
+        <section class="intro">
+
+            <p class="eyebrow">WELCOME TO PRETTY PETALS</p>
+
+            <h2>
+                Made by hand.
+                <br>
+                Made with love.
+            </h2>
+
+            <p>
+                From delicate flowers to charming keychains and
+                unique handmade creations, every piece is carefully
+                crafted to bring a little more beauty into your everyday.
+            </p>
+
+        </section>
+
+
+        <!-- ================= SHOP ================= -->
+
+        <section class="shop-section" id="shop">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">THE COLLECTION</p>
+
+                <h2>Shop by category</h2>
+
+                <p>
+                    Explore our handmade creations, thoughtfully made
+                    for gifting, decorating and keeping.
+                </p>
+
+            </div>
+
+
+            <div class="category-grid">
+
+                <a href="#products" class="category-card">
+
+                    <div class="category-image flower-bg">
+                        ✿
+                    </div>
+
+                    <div class="category-info">
+                        <h3>Flowers</h3>
+                        <p>Handcrafted flowers in different colours & styles</p>
+                        <span>Explore →</span>
+                    </div>
+
+                </a>
+
+
+                <a href="#products" class="category-card">
+
+                    <div class="category-image bouquet-bg">
+                        💐
+                    </div>
+
+                    <div class="category-info">
+                        <h3>Bouquets</h3>
+                        <p>Beautiful handmade bouquets starting from ₹400</p>
+                        <span>Explore →</span>
+                    </div>
+
+                </a>
+
+
+                <a href="#products" class="category-card">
+
+                    <div class="category-image keychain-bg">
+                        🧸
+                    </div>
+
+                    <div class="category-info">
+                        <h3>Keychains</h3>
+                        <p>Cute little handmade charms for everyday moments</p>
+                        <span>Explore →</span>
+                    </div>
+
+                </a>
+
+
+                <a href="#products" class="category-card">
+
+                    <div class="category-image pot-bg">
+                        🌷
+                    </div>
+
+                    <div class="category-info">
+                        <h3>Flower Pots</h3>
+                        <p>Handmade floral pieces for your space</p>
+                        <span>Explore →</span>
+                    </div>
+
+                </a>
+
+
+                <a href="#products" class="category-card">
+
+                    <div class="category-image accessory-bg">
+                        🎀
+                    </div>
+
+                    <div class="category-info">
+                        <h3>Hair Accessories</h3>
+                        <p>Flower clips, claw clips & pretty accessories</p>
+                        <span>Explore →</span>
+                    </div>
+
+                </a>
+
+
+                <a href="#products" class="category-card">
+
+                    <div class="category-image decor-bg">
+                        ✨
+                    </div>
+
+                    <div class="category-info">
+                        <h3>Decor & More</h3>
+                        <p>Lamps, fuzzy-wire structures & unique creations</p>
+                        <span>Explore →</span>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+
+        <section class="products-section" id="products">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">HANDMADE FAVOURITES</p>
+
+                <h2>A few favourites</h2>
+
+                <p>
+                    A little preview of what we create.
+                    More designs are available through Instagram and WhatsApp.
+                </p>
+
+            </div>
+
+
+            <div class="product-grid">
+
+                <article class="product-card">
+
+                    <div class="product-placeholder">
+                        🌻
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">FLOWERS</p>
+
+                        <h3>Handmade Flower</h3>
+
+                        <p class="product-price">
+                            Enquire for price
+                        </p>
+
+                        <a href="#contact" class="product-btn">
+                            Order / Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-placeholder">
+                        💐
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">BOUQUETS</p>
+
+                        <h3>Handmade Bouquet</h3>
+
+                        <p class="product-price">
+                            Starting from ₹400
+                        </p>
+
+                        <a href="#contact" class="product-btn">
+                            Order / Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-placeholder">
+                        🧸
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">KEYCHAINS</p>
+
+                        <h3>Cute Handmade Keychain</h3>
+
+                        <p class="product-price">
+                            Enquire for price
+                        </p>
+
+                        <a href="#contact" class="product-btn">
+                            Order / Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-placeholder">
+                        🎀
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">ACCESSORIES</p>
+
+                        <h3>Flower Hair Clip</h3>
+
+                        <p class="product-price">
+                            Enquire for price
+                        </p>
+
+                        <a href="#contact" class="product-btn">
+                            Order / Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-image">
+                <span>♡</span>
+            </div>
+
+            <div class="about-content">
+
+                <p class="eyebrow">A LITTLE ABOUT US</p>
+
+                <h2>
+                    More than flowers,
+                    <span>it's a little piece of my heart.</span>
+                </h2>
+
+                <p>
+                    Pretty Petals by Kashish is a handmade small business
+                    creating fuzzy-wire flowers, bouquets, accessories,
+                    keychains and unique handmade pieces.
+                </p>
+
+                <p>
+                    Every creation is made by hand, with patience,
+                    creativity and lots of love — because we believe
+                    the best gifts are the ones that feel personal.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Get to know us →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GALLERY ================= -->
+
+        <section class="gallery-section" id="gallery">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">A GLIMPSE OF OUR WORK</p>
+
+                <h2>Made to be remembered.</h2>
+
+                <p>
+                    Every piece is handmade and uniquely yours.
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item large">
+                    🌸
+                </div>
+
+                <div class="gallery-item">
+                    🌻
+                </div>
+
+                <div class="gallery-item">
+                    💐
+                </div>
+
+                <div class="gallery-item">
+                    🧸
+                </div>
+
+                <div class="gallery-item">
+                    🎀
+                </div>
+
+                <div class="gallery-item large">
+                    ✨
+                </div>
+
+            </div>
+
+
+            <a
+                href="https://www.instagram.com/prettypetals_kashish/"
+                target="_blank"
+                class="instagram-button"
+            >
+                Follow us on Instagram ↗
+            </a>
+
+        </section>
+
+
+        <!-- ================= CUSTOM ORDER ================= -->
+
+        <section class="custom-section">
+
+            <p class="eyebrow">HAVE SOMETHING SPECIAL IN MIND?</p>
+
+            <h2>
+                Let's create something
+                <span>just for you.</span>
+            </h2>
+
+            <p>
+                Tell us your colours, flowers, occasion or idea,
+                and we'll create a handmade piece especially for you.
+            </p>
+
+            <a href="#contact" class="btn btn-primary">
+                Request a Custom Order
+            </a>
+
+        </section>
+
+
+        <!-- ================= HOW TO ORDER ================= -->
+
+        <section class="order-section" id="how-to-order">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">SIMPLE & EASY</p>
+
+                <h2>How to order</h2>
+
+            </div>
+
+
+            <div class="steps-grid">
+
+                <div class="step">
+
+                    <span>01</span>
+
+                    <h3>Explore</h3>
+
+                    <p>
+                        Browse through our handmade collections
+                        and find something you love.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <span>02</span>
+
+                    <h3>Choose</h3>
+
+                    <p>
+                        Select your favourite piece or tell us
+                        what you'd like customised.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <span>03</span>
+
+                    <h3>Connect</h3>
+
+                    <p>
+                        Message us on WhatsApp or Instagram
+                        with your requirements.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <span>04</span>
+
+                    <h3>Made for you</h3>
+
+                    <p>
+                        Your handmade creation is carefully
+                        crafted and packed with love.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="eyebrow">LET'S CONNECT</p>
+
+                <h2>
+                    Have a question?
+                    <span>Let's talk.</span>
+                </h2>
+
+                <p>
+                    For orders, custom creations, bulk orders
+                    or any questions, feel free to reach out.
+                </p>
+
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="https://www.instagram.com/prettypetals_kashish/"
+                        target="_blank"
+                        class="contact-button"
+                    >
+                        Instagram
+                    </a>
+
+                    <a
+                        href="https://wa.me/YOURNUMBER"
+                        target="_blank"
+                        class="contact-button"
+                    >
+                        WhatsApp
+                    </a>
+
+                    <a
+                        href="mailto:prettypetalskashish2412@gmail.com"
+                        class="contact-button"
+                    >
+                        Email
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-brand">
+
+            <h2>Pretty Petals</h2>
+
+            <p>by Kashish</p>
+
+            <span>Handmade with love ♡</span>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Pretty Petals by Kashish. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
-
 </html>
