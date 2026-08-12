@@ -1310,3 +1310,43 @@ footer {
         z-index: 2;
     }
 }
+   /* HERO PHOTO — DISSOLVE EFFECT */
+
+.hero-decoration {
+    position: relative;
+}
+
+.flower-circle {
+    position: relative;
+    border-radius: 0 !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: hidden;
+}
+
+.flower-circle img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+
+    /* Soft faded look */
+    opacity: 0.35;
+
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 15%,
+        rgba(0,0,0,0.8) 40%,
+        rgba(0,0,0,0.4) 60%,
+        transparent 85%
+    );
+
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 15%,
+        rgba(0,0,0,0.8) 40%,
+        rgba(0,0,0,0.4) 60%,
+        transparent 85%
+    );
+}
