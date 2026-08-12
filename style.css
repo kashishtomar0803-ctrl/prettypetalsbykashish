@@ -1350,3 +1350,42 @@ footer {
         transparent 85%
     );
 }
+   /* =========================================
+   HERO PHOTO - SOFT DISSOLVE
+   ========================================= */
+
+.flower-circle {
+    background: none !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+}
+
+.flower-circle img {
+    width: 420px !important;
+    height: 420px !important;
+    max-width: 90vw !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+    opacity: 0.9 !important;
+
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        #000 20%,
+        rgba(0,0,0,0.95) 42%,
+        rgba(0,0,0,0.65) 60%,
+        rgba(0,0,0,0.2) 75%,
+        transparent 92%
+    );
+
+    mask-image: radial-gradient(
+        ellipse at center,
+        #000 20%,
+        rgba(0,0,0,0.95) 42%,
+        rgba(0,0,0,0.65) 60%,
+        rgba(0,0,0,0.2) 75%,
+        transparent 92%
+    );
+}
