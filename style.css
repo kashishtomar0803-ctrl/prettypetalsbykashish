@@ -1537,3 +1537,35 @@ footer {
         height: 280px;
     }
 }
+.product-category {
+    margin-bottom: 8px;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--gold);
+}
+
+.product-info strong {
+    display: block;
+    margin-top: 12px;
+    color: var(--burgundy);
+}
+
+.product-btn {
+    display: block;
+    margin-top: 18px;
+    padding: 12px;
+    border: 1px solid rgba(113, 59, 67, 0.2);
+    text-align: center;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--burgundy);
+    transition: 0.3s ease;
+}
+
+.product-btn:hover {
+    background: var(--burgundy);
+    color: white;
+}
