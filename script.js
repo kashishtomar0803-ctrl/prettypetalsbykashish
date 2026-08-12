@@ -1,6 +1,6 @@
 const menuBtn = document.querySelector(".menu-btn");
 const nav = document.querySelector(".navbar nav");
 
-menuBtn.addEventListener("click", function () {
-    nav.classList.toggle("mobile-menu");
-});
+menuBtn.onclick = function () {
+    nav.classList.toggle("show-menu");
+};
