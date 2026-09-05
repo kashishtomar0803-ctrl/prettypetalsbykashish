@@ -1873,3 +1873,24 @@ footer {
     background: #743D45 !important;
     color: white !important;
 }
+.shop-more {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.shop-more a {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 1px solid #743D45;
+    color: #743D45;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.shop-more a:hover {
+    background: #743D45;
+    color: white;
+}
