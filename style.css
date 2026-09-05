@@ -1863,3 +1863,14 @@ footer {
     background: #5d3037;
     color: #ffffff !important;
 }
+.sunflower-btn {
+    background: white !important;
+    color: #713b43 !important;
+    border: 1px solid #713b43 !important;
+}
+
+.sunflower-btn:hover,
+.sunflower-btn:active {
+    background: #713b43 !important;
+    color: white !important;
+}
