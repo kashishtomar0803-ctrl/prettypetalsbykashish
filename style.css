@@ -1866,11 +1866,9 @@ footer {
 .sunflower-btn {
     background: white !important;
     color: #713b43 !important;
-    border: 1px solid #713b43 !important;
 }
 
-.sunflower-btn:hover,
-.sunflower-btn:active {
+.sunflower-btn:hover {
     background: #713b43 !important;
     color: white !important;
 }
