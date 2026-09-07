@@ -1873,20 +1873,3 @@ footer {
     background: #743D45 !important;
     color: white !important;
 }
-.shop-more {
-    display: block !important;
-    text-align: center !important;
-    margin: 40px 0 !important;
-}
-
-.shop-more a {
-    display: inline-block !important;
-    padding: 12px 30px !important;
-    background: #743D45 !important;
-    color: white !important;
-    text-decoration: none !important;
-    border: 1px solid #743D45 !important;
-    font-size: 11px !important;
-    letter-spacing: 2px !important;
-}
-c
