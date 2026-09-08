@@ -1911,3 +1911,23 @@ footer {
     font-size: 13px;
     letter-spacing: 2px;
 }
+/* Burgundy Buttons */
+
+.shop-more a {
+    background: #713b43 !important;
+    color: white !important;
+    border: 1px solid #713b43 !important;
+}
+
+.instagram-button {
+    background: #713b43 !important;
+    color: white !important;
+    border: 1px solid #713b43 !important;
+}
+
+/* Hover effect */
+.shop-more a:hover,
+.instagram-button:hover {
+    background: white !important;
+    color: #713b43 !important;
+}
