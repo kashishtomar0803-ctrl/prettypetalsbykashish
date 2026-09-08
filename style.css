@@ -1931,3 +1931,13 @@ footer {
     background: white !important;
     color: #713b43 !important;
 }
+.contact-button {
+    background: #713b43 !important;
+    color: white !important;
+    border: 1px solid #713b43 !important;
+}
+
+.contact-button:hover {
+    background: white !important;
+    color: #713b43 !important;
+}
