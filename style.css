@@ -1893,4 +1893,22 @@ footer {
     background: white;
     color: #713b43;
 }
+.shop-more {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
 
+.shop-more a {
+    display: inline-block !important;
+    width: auto !important;
+    padding: 14px 36px !important;
+    background: #ffffff !important;
+    color: #713b43 !important;
+    border: 1px solid #713b43 !important;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
