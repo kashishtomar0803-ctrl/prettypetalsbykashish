@@ -2008,3 +2008,30 @@ footer {
     }
 
 }
+/* BOUQUETS PAGE - PREMIUM CARDS */
+
+.bouquet-page .products {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 6%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.bouquet-page .product-card {
+    background: #fff;
+    border: 1px solid rgba(113, 59, 67, 0.12);
+    box-shadow: 0 12px 35px rgba(113, 59, 67, 0.08);
+    overflow: hidden;
+}
+
+.bouquet-page .product-card img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.bouquet-page .product-info {
+    padding: 25px;
+}
