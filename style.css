@@ -2097,3 +2097,78 @@ footer {
     background: white;
     color: #713b43;
 }
+/* BOUQUETS PAGE - PRODUCT TEXT */
+
+.bouquet-page .product-info h3 {
+    color: #713b43;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.bouquet-page .product-info p {
+    color: #665953;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.bouquet-page .product-info strong {
+    color: #713b43;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.bouquet-page .product-btn {
+    background: #713b43;
+    color: white;
+    border: 1px solid #713b43;
+    padding: 11px 24px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.bouquet-page .product-btn:hover {
+    background: white;
+    color: #713b43;
+}
+/* BOUQUETS PAGE - CARD SPACING */
+
+.bouquet-page .products {
+    row-gap: 50px;
+    column-gap: 40px;
+}
+/* BOUQUETS PAGE - CARD SPACING */
+
+.bouquet-page .products {
+    row-gap: 50px;
+    column-gap: 40px;
+}
+/* BOUQUETS PAGE - SECTION HEADING */
+
+.bouquet-page h2 {
+    color: #713b43;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.bouquet-page .section-subtitle {
+    color: #665953;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+/* BOUQUETS PAGE - ORDER BUTTON */
+
+.bouquet-page .product-btn {
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.bouquet-page .product-btn:hover {
+    transform: translateY(-2px);
+}
